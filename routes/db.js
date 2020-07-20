@@ -2,14 +2,14 @@ const mysql = require('mysql');
 
 const conexion = mysql.createConnection({
   host: 'localhost',
-  user: 'root',
-  password: '241099oucz.',
-  database: 'express_knowledge'
+  user: 'username',
+  password: 'password',
+  database: 'codelines'
 });
 
 conexion.connect(error => {
   if(error)
-    console.log("Error en la conexión a la BD.");
+    console.log("Error en la conexión a la BD.", error);
   else {
     console.log("Conexión exitosa.");
   }

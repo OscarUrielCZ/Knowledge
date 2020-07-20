@@ -1,5 +1,5 @@
-CREATE DATABASE express_knowledge;
-USE express_knowledge;
+CREATE DATABASE codelines;
+USE codelines;
 
 CREATE TABLE instruccion(
   id INT(11) AUTO_INCREMENT PRIMARY KEY;
